@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--应用主灰色色调f0f0-->
+    <color name="maingray">#f5f5f5</color>
+    <color name="blue">#007aee</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="color_6D6D6D">#6d6d6d</color>
+
+    <color name="PrimaryDark">#007aee</color>
+    <color name="homewordnormal">#b3848484</color>
+    <color name="colore2e2e2">#e2e2e2</color>
+    <color name="color7d7d7d">#7d7d7d</color>
+
+    <color name="menuline">#dfdfdf</color>
+    <color name="mainblue">#2c92f3</color>
+    <color name="finish">#007aee</color>
+
+    <color name="linebelowtitle">#e5e5e5</color>
+    <color name="color_FA514E">#FA514E</color>
+    <color name="color_666666">#666666</color>
+    <color name="home_small_banner_title_black">#666666</color>
+    <color name="divider">#33979797</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_dfdfdf">#dfdfdf</color>
+    <color name="raidingbg">#63a9f8</color>
+
+</resources>

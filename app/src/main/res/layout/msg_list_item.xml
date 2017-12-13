@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/msg_list_item_view">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/message_time"
+        android:text="2017/04/11 16:53"
+        android:textSize="12sp"
+        android:textColor="#929292"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_name"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="2016亮啦日记"
+        android:layout_toEndOf="@+id/message_icon"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_content"
+        android:textSize="12.5sp"
+        android:text="2016就要过去了，亮啦在这里为大家整理了这一年你的消费日记，快来看看吧~"
+        android:textColor="#202427"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/message_name"
+        android:layout_alignStart="@+id/message_name"
+        android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/msg_icon_next"
+        android:layout_marginRight="13dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
+    <com.brightcns.liangla.CustomView.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_icon"
+        android:background="@mipmap/msg_icon_liangla"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/message_content"
+        android:background="#f0f0f0"/>
+</RelativeLayout>
+
+
+</RelativeLayout>
+

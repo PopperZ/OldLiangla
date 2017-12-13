@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/maingray"
+                android:clipToPadding="true"
+                android:fitsSystemWindows="true">
+
+
+    <include
+        android:id="@+id/includtoolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/wholetoolbar"/>
+
+    <TextView
+        android:id="@+id/msgdetailtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/includtoolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:text="我是文本"/>
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/bottom_view"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:background="@mipmap/bottom_bg_big"
+                android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/pull_view"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+
+        <ImageButton
+            android:id="@+id/pull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/bottom_pull_down"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/homeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/home_normal"/>
+
+        <TextView
+            android:id="@+id/homeName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="#007aee"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/equity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/equityIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@mipmap/equity_normal"/>
+
+        <TextView
+            android:id="@+id/equityName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="权益"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rect"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/rect_bg"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/rect_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:background="@mipmap/qr_bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/rect_icon"
+            android:gravity="center"
+            android:text="扫码乘车"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_size_14"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/circle"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/circle_bg">
+
+        <ImageView
+            android:id="@+id/circle_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/qr_bg_big"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/circle_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="扫码乘车"
+            android:textColor="#ffffff"
+            android:textSize="17sp"/>
+    </RelativeLayout>
+</RelativeLayout>

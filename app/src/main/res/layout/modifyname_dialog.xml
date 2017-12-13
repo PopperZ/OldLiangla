@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:id="@+id/dialog"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@mipmap/bg_nickname"
+        android:layout_centerInParent="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="输入昵称"/>
+        <RelativeLayout
+            android:layout_width="227.5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_height="45.5dp">
+        <EditText
+            android:id="@+id/enternameedt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:background="@drawable/opensmartlife_shape"/>
+
+            <ImageView
+                android:id="@+id/iv_edtdelet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginRight="6.5dp"
+                android:src="@mipmap/icon_delect_nickname"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@mipmap/btn_nickname"
+                android:textSize="14sp"
+                android:text="取消"/>
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@mipmap/btn_nickname"
+                android:textSize="14sp"
+                android:text="确定"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

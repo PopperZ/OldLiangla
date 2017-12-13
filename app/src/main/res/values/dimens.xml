@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nexticonmarginright">4dp</dimen>
+    <dimen name="backllwidth">30dp</dimen>
+    <dimen name="backllheight">50dp</dimen>
+    <dimen name="titletvsize">16sp</dimen>
+    <dimen name="bluebtnheight">41dp</dimen>
+    <dimen name="bluebtnwidth">336dp</dimen>
+    <dimen name="layout_size_20">20dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="layout_size_13">13dp</dimen>
+    <dimen name="padingleft13dp">13dp</dimen>
+    <dimen name="padingleft15dp">15dp</dimen>
+    <dimen name="maintitletvsize">14sp</dimen>
+    <dimen name="View_margin_10">0dp</dimen>
+    <dimen name="toolbarheight">45dp</dimen>
+    <dimen name="toolbariconmarginleft">6dp</dimen>
+    <dimen name="toolbariconpadding">8dp</dimen>
+    <dimen name="toolbariconwidth">30dp</dimen>
+    <dimen name="toolbariconheight">30dp</dimen>
+    <dimen name="margainleft14">14dp</dimen>
+    <dimen name="margainrightandleft">14dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="padd_20">20dp</dimen>
+</resources>

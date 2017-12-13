@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ripple_menus_item"
+    >
+    <ImageView
+        android:id="@+id/iv_home_small_banner"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/home_smallban"
+        />
+    <TextView
+        android:id="@+id/tv_home_small_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="乘车积分兑换"
+        android:textSize="11dp"
+        android:textColor="@color/home_small_banner_title_black"
+        />
+
+</LinearLayout>

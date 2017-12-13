@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <include
+        android:id="@+id/includtoolbar"
+        layout="@layout/wholetoolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <!--手机号-->
+    <RelativeLayout
+        android:id="@+id/tv_setting_phonenum"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:layout_below="@+id/includtoolbar"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/ripple_with_color_mask"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/settingline2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/menuline"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margainrightandleft"
+            android:text="手机号"
+            android:textColor="#222222"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margainrightandleft"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/spphonenumtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:maxLength="11"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/mine_next"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineforphonenum"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margainrightandleft"
+            android:layout_marginRight="@dimen/margainrightandleft"
+            android:background="@color/menuline"/>
+    </RelativeLayout>
+
+
+    <!--支付秘密吗设置-->
+
+    <RelativeLayout
+        android:id="@+id/paypwdsettingrl"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:layout_below="@+id/tv_setting_phonenum"
+        android:background="@drawable/ripple_with_color_mask"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margainrightandleft"
+            android:text="支付密码设置"
+            android:textColor="#222222"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margainrightandleft"
+            android:src="@mipmap/mine_next"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/menuline"/>
+    </RelativeLayout>
+
+    <!--关于我们-->
+    <RelativeLayout
+        android:id="@+id/aboutusrl"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/paypwdsettingrl"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/ripple_with_color_mask"
+        android:clickable="true"
+        android:focusable="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/menuline"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margainrightandleft"
+            android:text="关于我们"
+            android:textColor="#222222"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margainrightandleft"
+            android:src="@mipmap/mine_next"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margainrightandleft"
+            android:layout_marginRight="@dimen/margainrightandleft"
+            android:background="@color/menuline"/>
+
+    </RelativeLayout>
+
+
+    <!--帮助中心-->
+    <RelativeLayout
+        android:id="@+id/rl_setting_helpcenterrl"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:layout_below="@+id/aboutusrl"
+        android:background="@drawable/ripple_with_color_mask"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margainrightandleft"
+            android:text="帮助中心"
+            android:textColor="#222222"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margainrightandleft"
+            android:src="@mipmap/mine_next"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margainrightandleft"
+            android:layout_marginRight="@dimen/margainrightandleft"
+            android:background="@color/menuline"/>
+    </RelativeLayout>
+
+
+    <!--意见反馈-->
+    <RelativeLayout
+        android:id="@+id/shareianglaforfriendrl"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:layout_below="@+id/rl_setting_helpcenterrl"
+        android:background="@drawable/ripple_with_color_mask"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padingleft15dp"
+            android:text="意见反馈"
+            android:textColor="#222222"
+            android:textSize="14sp"/>
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/nexticonmarginright">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/mine_next"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line12"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/menuline"/>
+    </RelativeLayout>
+
+
+    <!--退出登录-->
+    <RelativeLayout
+        android:id="@+id/setting_logoutrl"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:layout_below="@+id/shareianglaforfriendrl"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layoutbg_selector"
+        android:clickable="false"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/settingline4"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/menuline"/>
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="退出登录"
+            android:textColor="@color/blue"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_downloadapk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="版本更新"/>
+
+    <View
+        android:id="@+id/line_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/setting_logoutrl"
+        android:background="@color/menuline"/>
+
+
+
+</RelativeLayout>

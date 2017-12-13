@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/splashView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="26sp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳过"
+            android:textColor="#696969"
+            android:textSize="14.5sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" >
+
+        <Button
+            android:id="@+id/goexperience"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/btn_load3"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="点亮生活"
+            android:textColor="#a6b1e3"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!--smalll point-->
+    <LinearLayout
+        android:id="@+id/pointView"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageButton
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:saveEnabled="false"
+            android:src="@mipmap/point_click"/>
+
+        <ImageButton
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:saveEnabled="false"
+            android:src="@mipmap/point_normal"/>
+
+        <ImageButton
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:saveEnabled="false"
+            android:src="@mipmap/point_normal"/>
+    </LinearLayout>
+</RelativeLayout>
+

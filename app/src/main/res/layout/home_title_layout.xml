@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <ImageView
+        android:id="@+id/iv_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="3dp"
+        android:padding="13dp"
+        android:src="@mipmap/ic_wd_sy"/>
+
+    <LinearLayout
+        android:id="@+id/choosecitylll"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/citynametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:text="上海松江"/>
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:src="@mipmap/icon_xlsm_sy"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:layout_marginRight="3dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/icon_add_sy"/>
+
+</RelativeLayout>

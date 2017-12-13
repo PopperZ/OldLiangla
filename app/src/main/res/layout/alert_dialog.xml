@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/selectpic_pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择方式"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:textColor="@color/color7d7d7d"/>
+    </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colore2e2e2"/>
+
+    <RelativeLayout
+        android:id="@+id/poppaizhao"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍照"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:textColor="@color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colore2e2e2"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/popxuanzezhaopian"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择照片"
+            android:textSize="13sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colore2e2e2"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/popquxiao"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colore2e2e2"/>
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
